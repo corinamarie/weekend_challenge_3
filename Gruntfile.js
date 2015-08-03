@@ -15,7 +15,7 @@ module.exports = function(grunt){
                 expand: true,
                 cwd: 'node_modules',
                 src: [
-                    "jquery/dist/jquery.min.js"
+                    "bootstrap/dist/jquery.min.js"
                 ],
                 "dest": "server/public/vendors/"
             }
